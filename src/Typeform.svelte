@@ -1,5 +1,5 @@
 <script>
-  export let name = "Typeform";
+    export let name = 'Typeform';
 </script>
 
-<h1>Svelte {name}</h1>
+<h1>Svelte {name} Embed</h1>
