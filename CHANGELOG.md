@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.0] - 24-09-2020
+
+### Changed
+
+-   First attempt to SDK integration
+-   @typeform/embed package added
+
 ## [0.1.0] - 24-09-2020
 
 ### Added
