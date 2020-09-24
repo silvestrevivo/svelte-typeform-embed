@@ -1,5 +1,5 @@
 {
-  "name": "SvelteComponent",
+  "name": "svelte-typeform-embed",
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
@@ -11,7 +11,7 @@
     "@rollup/plugin-node-resolve": "^9.0.0",
     "rollup": "^2.0.0",
     "rollup-plugin-svelte": "^6.0.0",
-    "svelte": "^3.0.0"
+    "svelte": "^3.26.0"
   },
   "keywords": [
     "svelte"
@@ -19,5 +19,17 @@
   "files": [
     "src",
     "dist"
-  ]
+  ],
+  "description": "A Svelte wrapper component for Typeform Embed SDK.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silvestrevivo/svelte-typeform-embed.git"
+  },
+  "author": "@silvestrevivo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silvestrevivo/svelte-typeform-embed/issues"
+  },
+  "homepage": "https://github.com/silvestrevivo/svelte-typeform-embed#readme"
 }
