@@ -1,35 +1,43 @@
 {
-  "name": "svelte-typeform-embed",
-  "svelte": "src/index.js",
-  "module": "dist/index.mjs",
-  "main": "dist/index.js",
-  "scripts": {
-    "build": "rollup -c",
-    "prepublishOnly": "npm run build"
-  },
-  "devDependencies": {
-    "@rollup/plugin-node-resolve": "^9.0.0",
-    "rollup": "^2.0.0",
-    "rollup-plugin-svelte": "^6.0.0",
-    "svelte": "^3.26.0"
-  },
-  "keywords": [
-    "svelte"
-  ],
-  "files": [
-    "src",
-    "dist"
-  ],
-  "description": "A Svelte wrapper component for Typeform Embed SDK.",
-  "version": "0.0.1",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/silvestrevivo/svelte-typeform-embed.git"
-  },
-  "author": "@silvestrevivo",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/silvestrevivo/svelte-typeform-embed/issues"
-  },
-  "homepage": "https://github.com/silvestrevivo/svelte-typeform-embed#readme"
+    "name": "svelte-typeform-embed",
+    "svelte": "src/index.js",
+    "module": "dist/index.mjs",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "rollup -c",
+        "prepublishOnly": "npm run build"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.11.6",
+        "@rollup/plugin-node-resolve": "^9.0.0",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.9.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "eslint-plugin-svelte3": "^2.7.3",
+        "prettier": "^2.1.2",
+        "prettier-plugin-svelte": "^1.2.1",
+        "rollup": "^2.0.0",
+        "rollup-plugin-svelte": "^6.0.0",
+        "svelte": "^3.26.0"
+    },
+    "keywords": [
+        "svelte"
+    ],
+    "files": [
+        "src",
+        "dist"
+    ],
+    "description": "A Svelte wrapper component for Typeform Embed SDK.",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/silvestrevivo/svelte-typeform-embed.git"
+    },
+    "author": "@silvestrevivo",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/silvestrevivo/svelte-typeform-embed/issues"
+    },
+    "homepage": "https://github.com/silvestrevivo/svelte-typeform-embed#readme"
 }

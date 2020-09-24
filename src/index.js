@@ -1,1 +1,1 @@
-export { default as default } from './Typeform.svelte';
+export { default } from './Typeform.svelte';
