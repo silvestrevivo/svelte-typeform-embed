@@ -6,8 +6,10 @@ A Svelte wrapper component for
 ## Usage
 
 ```bash
-npm install svelte-typeform-embed
+npm install svelte-typeform-embed @rollup/plugin-replace
 ```
+
+In your **.svelte** file:
 
 ```js
 <script>
@@ -15,6 +17,12 @@ npm install svelte-typeform-embed
 </script>
 
 <Typeform url="https://peronalurl.typeform.com/to/1234" />
+```
+
+In **rollup.config.js** you need to add after **commonjs(),**:
+
+```js
+replace({ 'process.env.NODE_ENV': JSON.stringify( 'production' ) }),
 ```
 
 ### License
