@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.1] - 24-09-2020
+
+-   Readme updated to include @rollup/plugin-replace
+
 ## [0.2.0] - 24-09-2020
 
 ### Changed
