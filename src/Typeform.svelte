@@ -2,7 +2,24 @@
     import * as typeformEmbed from '@typeform/embed';
     import { onMount } from 'svelte';
 
-    export let url, style;
+    export let url,
+        style,
+        popup = false,
+        //general options
+        hideHeaders = false,
+        hideFooter = false,
+        hideScrollbars = true,
+        onSubmit = () => {},
+        onReady = () => {},
+        // widget mode
+        opacity = 100,
+        buttonText = 'Start',
+        //popup
+        mode = 'popup',
+        autoOpen = false,
+        autoClose = 0;
+
+    export let typeformPopup;
 
     let myElement;
     let styleByDefault = {
@@ -23,17 +40,28 @@
     $: styleApplyed = styleString({ ...styleByDefault, ...style });
 
     onMount(() => {
-        typeformEmbed.makeWidget(myElement, url, {
-            opacity: 55,
-            buttonText: 'Answer this!',
-            hideScrollbars: true,
-            onSubmit: function () {
-                console.log('Typeform successfully submitted');
-            },
-            onReady: function () {
-                console.log('Typeform is ready');
-            },
-        });
+        const options = {
+            hideHeaders,
+            hideFooter,
+            hideScrollbars,
+            onSubmit,
+            onReady,
+        };
+        if (!popup) {
+            typeformEmbed.makeWidget(myElement, url, {
+                ...options,
+                opacity,
+                buttonText,
+            });
+        } else {
+            typeformPopup = typeformEmbed.makePopup(url, {
+                ...options,
+                mode,
+                autoOpen,
+                autoClose,
+            });
+            return typeformPopup;
+        }
     });
 </script>
 
