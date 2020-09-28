@@ -8,7 +8,6 @@
         //general options
         hideHeaders = false,
         hideFooter = false,
-        hideScrollbars = true,
         onSubmit = () => {},
         onReady = () => {},
         // widget mode
@@ -43,7 +42,6 @@
         const options = {
             hideHeaders,
             hideFooter,
-            hideScrollbars,
             onSubmit,
             onReady,
         };
