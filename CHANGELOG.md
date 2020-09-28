@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.3.0] - 28-09-2020
+
+-   Props and methods added
+-   Readme updated to explain props implementation
+
 ## [0.2.1] - 24-09-2020
 
 -   Readme updated to include @rollup/plugin-replace
