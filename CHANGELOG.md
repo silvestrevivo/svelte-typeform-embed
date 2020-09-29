@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [0.3.0] - 28-09-2020
+## [0.4.0] - 28-09-2020
 
 -   Demo website added to readme.md
 
