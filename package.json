@@ -39,7 +39,7 @@
     "bugs": {
         "url": "https://github.com/silvestrevivo/svelte-typeform-embed/issues"
     },
-    "homepage": "https://github.com/silvestrevivo/svelte-typeform-embed#readme",
+    "homepage": "https://svelte-typeform-embed.netlify.app/",
     "dependencies": {
         "@typeform/embed": "^0.25.1"
     }
