@@ -25,6 +25,10 @@ In **rollup.config.js** you need to add after **commonjs(),**:
 replace({ 'process.env.NODE_ENV': JSON.stringify( 'production' ) }),
 ```
 
+## Demo
+
+See a [live demo](https://svelte-typeform-embed.netlify.app/).
+
 ## Props
 
 All the props are based in the official documentation from from
