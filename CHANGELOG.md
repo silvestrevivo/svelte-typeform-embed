@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 ## [0.3.0] - 28-09-2020
 
+-   Demo website added to readme.md
+
+## [0.3.0] - 28-09-2020
+
 -   Props and methods added
 -   Readme updated to explain props implementation
 
