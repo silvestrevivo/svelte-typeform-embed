@@ -29,7 +29,7 @@
         "dist"
     ],
     "description": "A Svelte wrapper component for Typeform Embed SDK.",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/silvestrevivo/svelte-typeform-embed.git"
